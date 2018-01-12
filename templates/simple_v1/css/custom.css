@@ -1,0 +1,289 @@
+/* Custom CSS Webdesign Sinci 
+****************************************************/
+
+/* LAYOUT
+****************************************************/
+a:hover, .uk-link:hover {
+    text-decoration:none;
+}
+
+
+.page-header {
+    border-bottom:none;
+}
+
+.form-actions {
+    background-color: #fff;
+    border-top:none;
+}
+
+legend {
+    border:none;
+    font-size:14px;
+    line-height:18px;
+}
+
+/* HEADER
+****************************************************/
+
+/* Phone */
+.phone {
+	font-size:34px;
+	line-height:40px;
+	color:#31353D;
+	font-weight:300;	
+}
+
+.tm-headerbar .uk-icon-phone {
+    color: #99BF38;
+    font-weight:bold;
+}
+
+
+/* Social Icons */
+.tm-headerbar .uk-icon-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    line-height: 40px;
+    color: #656565;
+    font-size: 20px;
+    text-align: center;
+}
+
+.uk-icon-facebook:hover {
+    background-color: #3B5998;
+    color: #FFF;
+}
+
+.uk-icon-twitter:hover {
+    background-color: #019AD1;
+    color: #FFF;
+}
+
+.uk-icon-google-plus:hover {
+    background-color: #D34836;
+    color: #FFF;	
+}
+
+/* Main Menu */
+.uk-navbar-nav > li > a {
+	text-transform: uppercase;
+	padding: 0px 20px;
+	border-right: 1px solid #8BAB38;
+}
+
+.uk-navbar-nav > li:last-child > a {
+    border-right: medium none;
+}
+
+
+/* Search */
+.uk-search::before {
+    color: rgba(255, 255, 255, 0.5);
+    font-size:24px;
+}
+
+.uk-search-field::-webkit-input-placeholder {     
+    color: #FFFFFF;
+    opacity:  0.5;  
+}    
+
+.uk-search-field:-moz-placeholder {    
+    color: #FFFFFF;    
+    opacity:  0.5;    
+}    
+
+.uk-search-field::-moz-placeholder {    
+    color: #FFFFFF;    
+    opacity:  0.5;    
+}    
+
+.uk-search-field:-ms-input-placeholder { 
+    color: #FFFFFF;
+    opacity:  0.5;  
+}
+
+/* MAIN
+****************************************************/
+
+/* Slide Home */
+.layout-slideshow .sprocket-features-arrows .arrow {
+    width:40px;
+    height:40px;
+    border-radius:2px;
+    opacity: 0.6;
+    font-size:32px;
+    line-height:32px;
+}
+
+.layout-slideshow .sprocket-features-pagination {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    z-index: 10;
+}
+
+.layout-slideshow .sprocket-features-content {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+}
+
+.layout-slideshow .sprocket-features-title {
+    padding: 0 5px;
+}
+
+/* Content */
+.tm-leading-article .uk-article:last-child {
+    margin-bottom: 0px;
+    padding-bottom:35px;
+    border-bottom: 4px solid #F9F9F9;
+}
+
+.uk-article + .uk-article {
+    margin-top:35px;
+    padding-top:35px;
+    border-top: 4px solid #F9F9F9;  
+}
+
+/* Quotes */
+.sprocket-quotes-container > li {
+    margin: -1% -4px 1% 0px;
+}
+
+.sprocket-quotes-item {
+    border-radius: 0px;
+}
+
+.quoteshome h3 {
+    text-align: center;
+}
+
+.sprocket-quotes-nav {
+    padding: 10px 0px!important;
+}
+
+.sprocket-quotes-arrows .arrow,.sprocket-strips-s-arrows .arrow {
+    width: 26px;
+    height: 26px;
+    border-radius:0;
+    background:#fff;
+    border:1px solid #333;
+}
+
+/* FAQS */
+.sprocket-lists-modern-title {
+    font-size:19px!important;
+    line-height:25px!important;
+}
+
+.sprocket-lists-modern-item .sprocket-padding {
+    padding: 10px 0;
+}
+
+/* SIDEBAR
+****************************************************/
+
+/* FOOTER
+****************************************************/
+#tm-bottom-c h4 {
+    color:#99BF38;
+}
+
+#tm-bottom-b .uk-button-primary {
+    padding: 5px 10px;
+}
+
+.logo-footer {
+    width: 180px;
+}
+
+/* MOBILE DEVICE
+****************************************************/
+
+/* Phone Mobile */
+.phone-icon a {
+    color: #FFF;
+    border: 1px solid #FFF;
+    font-size: 18px;
+    padding: 3px 10px;
+    position: relative;
+    top: 25px;
+    right: 15px;
+}
+
+.phone-icon a:hover,
+.phone-icon a:focus {
+    background:#81A131;
+}
+
+.uk-navbar-toggle:hover,
+.uk-navbar-toggle:focus{
+    color:#81A131;
+}
+
+.uk-nav-offcanvas > li > a {
+    border-bottom: 1px solid #3F3F3F;
+    text-transform: uppercase;
+}
+
+.uk-nav-offcanvas > li:last-child > a {
+    border-bottom:none;
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+    .layout-slideshow .sprocket-features-title {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .layout-slideshow .sprocket-features-pagination {
+        display:none;
+    }
+
+}
+
+/* Smartphones to Tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 959px) {
+
+    .tm-headerbar .tm-logo {
+        width: 180px;
+    }
+
+	.uk-navbar-nav > li > a {
+		font-size:14px;
+	}
+
+	.uk-navbar-content.search {
+		padding:0;
+	}
+
+	input.uk-search-field:focus{
+		width:120px;
+	}
+
+
+}
+
+/* Desktop */
+@media (min-width: 960px) and (max-width: 1199px) {
+
+
+}
+
+/* Large Display */
+@media (min-width: 1200px) { 
+
+
+}
+

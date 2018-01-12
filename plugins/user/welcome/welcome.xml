@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="user">
+    <name>Welcome - User</name>
+    <author>Vaibhav Shinde</author>
+    <creationDate>Jan 11, 2018</creationDate>
+    <copyright>(C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
+    <version>1.0</version>
+    <description>User Welcome message plugin</description>
+    <files>
+        <filename plugin="welcome">welcome.php</filename>
+    </files>
+    <config/>
+</extension>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content">
+    <name>Language Flag - For Content</name>
+    <author>Vaibhav Shinde</author>
+    <creationDate>Jan 12, 2018</creationDate>
+    <copyright>(C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
+    <version>1.0</version>
+    <description>Language flag for article content</description>
+    <files>
+        <filename plugin="languageflag">languageflag.php</filename>
+    </files>
+    <config/>
+</extension>
